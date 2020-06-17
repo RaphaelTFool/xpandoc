@@ -17,8 +17,8 @@ echo ">>> Install dependent packages failed!"
 exit
 }
 
-mkdir -p ~/bin ~/.pandoc
-ln -fs $P/xpandoc.sh ~/bin/xpandoc.sh
+mkdir -p ~/usr/bin ~/.pandoc
+ln -fs $P/xpandoc.sh ~/usr/bin/xpandoc.sh
 rm -f ~/.pandoc/css ~/.pandoc/templates
 ln -s $P/css ~/.pandoc/css
 ln -s $P/templates ~/.pandoc/templates
